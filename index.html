@@ -1,13 +1,13 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
+[yes] Two External Links
+[yes] Table
+[2] Three CSS Rules
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
+[yes] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
@@ -19,24 +19,36 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    table, th, td{border: 1px solid; background-color:pink}
+    h1{font-family:"French Script MT"; text-align:center}
+    h2{color:rgb(255,177,177);}
+    body{background-color:rgb(255,240,240);}
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
-
+  <h1>Josi's Recipe Book</h1>
+<p>
+ These are some of my family's recipies! Because of this, a lot of the instructions are not 
+  very specific, but are more along the lines of how I learned how to make, and how they
+  have been passed down through my family. If you end up making any of them, I might be able 
+  to give more specific instructions/ingredients!
+  </p>
   <h2>Contents:</h2>
 
   <ol>
-    <li><a href="?">Recipe #1</a></li>
+    <li><a href="#rolls">Giuggiuleni Rolls</a></li>
+    <li><a href= "#succo">Succo</a></li>
+    <li><a href="#stuffing">Grandma Helen's Stuffing</a></li>
+    <li><a href="#lemon">Lemon and Parmesan Pasta</a></li>
   </ol>
 
-  <h2 id="?">Recipe #1</h2>
+  <h2 id="rolls">Nanny's Giuggiuleni Rolls</h2>
 
   <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
+    <li>Time: Not that long?</li>
+    <li>Serves: Probably 12</li>
   </ul>
 
   <table>
@@ -47,12 +59,74 @@ Select ONE Additional Feature to Add
       </tr>
     </thead>
     <tbody>
+      <tr>
+      <td>Water</td>
+        <td>1 cup</td>
+      </tr>
     </tbody>
   </table>
 
   <p><strong>Step 1:</strong> Do something.
   </p>
 
+  <h2 id="succo">Succo</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+  </table>
+  
+  <h2 id="stuffing">Grandma Helen's Stuffing</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr></tr>
+        <td>White Bread</td>
+        <td>2 loaves</td>
+      <tr>
+        <td>Butter</td>
+        <td> A few large spoonfuls</td>
+      </tr>
+      <tr>
+        <td>Onion</td>
+        <td>A lot (maybe 4-6?)</td>
+      </tr>
+      <tr>
+        <td>Celery</td>
+        <td>A Pack</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h2 id="lemon">Lemon and Parmesan Pasta</h2>
+  <p>
+    This is a recipe of my own, adapted from the cookbook <em><a href="https://www.chefbentish.com/books-and-writing">Sicilia</a></em> by Ben Tish. 
+    It makes for a great late night meal, and is pretty easy to throw together. </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pasta of your choice (I reccomend something like <a href="https://www.bing.com/images/search?view=detailV2&ccid=BPNZl8Vp&id=954A91B674AE7383115C33895C10A9E633AA03C1&thid=OIP.BPNZl8VpNaFXmc9HX5NmCwHaN1&mediaurl=https%3A%2F%2Fsupermarketitaly.com%2Fcdn%2Fshop%2Fproducts%2Fgiuseppe-cocco-sagnarelli-casareccio-500g-pasta-dry-goods-giuseppe-cocco-388955_500x.jpg%3Fv%3D1603140984&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.04f35997c56935a15799cf475f93660b%3Frik%3DwQOqM%252bapEFyJMw%26pid%3DImgRaw%26r%3D0&exph=934&expw=500&q=Sagnarelli&simid=607988162520569824&FORM=IRPRST&ck=31208438B7F1B1D9FA0A71792743D06A&selectedIndex=14&itb=0&cw=1375&ch=808&ajaxhist=0&ajaxserp=0">Sagnarelli</a></td>
+        <td>As much as you want to eat</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h2 id="pastina">Pastina</h2>
   <p><em>Source: <a href="?">Some recipes websites</a></em></p>
 
 </body>
