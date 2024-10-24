@@ -2,7 +2,7 @@
 Requirements
 [yes] Two External Links
 [yes] Table
-[2] Three CSS Rules
+[yes] Three CSS Rules
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
@@ -22,21 +22,27 @@ can you figure out how to get links to open in a different tab? Thanks!
   <meta charset="utf-8">
   <style>
     table, th, td{border: 1px solid; background-color:pink}
-    h1{font-family:"French Script MT"; text-align:center}
+    h1{font-family:"French Script MT"; text-align:center;}
     h2{color:rgb(255,177,177);}
     body{background-color:rgb(255,240,240);}
+    a{color:rgb(204, 104, 112)}
+    hr{background-color:#007676; height:2px; }
+    #nannys-rolls{transform: rotate(270deg);}
   </style>
 </head>
 
 <body>
 
-  <h1>Josi's Recipe Book</h1>
+  <h1 id="top">Josi's Recipe Book</h1>
 <p>
  These are some of my family's recipies! Because of this, a lot of the instructions are not 
   very specific, but are more along the lines of how I learned how to make, and how they
   have been passed down through my family. If you end up making any of them, I might be able 
   to give more specific instructions/ingredients!
   </p>
+  <center>
+    <img src="https://media.lacucinaitaliana.com/photos/5ddfddb6bbb6b30008b0c8e7/2:1/w_800,c_limit/rolling%20pin.jpg" width="350">
+  </center>
   <h2>Contents:</h2>
 
   <ol>
@@ -46,14 +52,24 @@ can you figure out how to get links to open in a different tab? Thanks!
     <li><a href="#lemon">Lemon and Parmesan Pasta</a></li>
     <li><a href="#pastina">Pastina</a></li>
   </ol>
-
+  
+  <hr>
+  
   <h2 id="rolls">Nanny's Giuggiuleni Rolls</h2>
-
+  <p>
+    These are my Nanny's (my great-grandmother) rolls! I think I'd give nearly anything to have one again. 
+    She used to make them for a Sunday night dinner. It was always very special when she made them.They 
+    were the absolute best. I wrote this down using the recipe on the index card she wrote, but it's not very 
+    specific, and there's no instructions, so I put it together where I could. I've only made them once, so bare 
+    with me. 
+  </p>
   <ul>
-    <li>Time: Not that long?</li>
+    <li>Time: About 1.5 hours</li>
     <li>Serves: Probably 12</li>
   </ul>
-
+  <center> 
+  <img src="https://cdn.glitch.global/c6d67813-600b-4345-96c2-cb59438fb4f1/Capture.PNG?v=1729697986542" height="400" id="nannys-rolls">
+  </center>
   <table>
     <thead>
       <tr>
@@ -63,16 +79,66 @@ can you figure out how to get links to open in a different tab? Thanks!
     </thead>
     <tbody>
       <tr>
-      <td>Water</td>
+        <td>Rapid Yeast</td>
+        <td>1 pkg.</td>
+      </tr>
+      <tr>
+        <td>Flour</td>
+        <td>5 cups</td>
+      </tr>
+      <tr>
+        <td>Salt</td>
+        <td>1/2 tbs</td>
+      </tr>
+      <tr>
+        <td>Hot Water</td>
         <td>1 cup</td>
+      </tr>
+      <tr>
+        <td>Crisco (vegetable oil)</td>
+        <td>1/4 cup</td>
+      </tr>
+      <tr>
+        <td>Giuggiuleni (sesame seeds)</td>
+        <td>For on top</td>
+      </tr>
+      <tr>
+        <td>Egg (optional)</td>
+        <td>1 egg</td>
       </tr>
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
+  <p><strong>Instructions</strong>
+  <br><br>I will say that the ingredients list written by my Nanny and the ingredient 
+    quantity in the steps are slightly different, but I'm using my Nanny's index card. 
+    I will say to go a bot heavier on the salt than she did though. The written 
+    instructions say something more along the ines of one heaping tbs.</p>
+  <ol>
+    <li>Mix flour, instant yeast (1 packet), and 1 (heaping) tbs salt</li>
+    <li>Add crisco and hot water until soft, sticky, and a little wet. Knead for 10 min.</li>
+    <li>Let rise for 10 minutes</li>
+    <li>Grease baking sheet or pan.</li>
+    <li>Shape rolls on floured surface; put on sheet. Cover with a towel and let rise for an hour.</li>
+    <li>Beat one egg and brush on top. Sprinle giuggiuleni (sesame seeds) on top.</li>
+    <li>Bake at 350 for 45 minutes.</li>
+  </ol>
+  <a href="#top">Back to top</a>
+  
+  <hr>
+  
   <h2 id="succo">Succo</h2>
+  <p>
+    Another one of my Nanny's recipies! Unless it was her mother's, I'm not sure. It's essentially a Sicilian-American 
+    Sunday sauce slowly cooked with meat in it. My mom (or maybe my Nana) used to tell me that Nanny would start making 
+    it early Sunday morning, go to church, let it cook all day, and then they would have dinner around 4. While it does 
+    take all day, I promise it is so worth it! I'm also vegetarian, so I usually use other protien  options instead of 
+    the meat, so if you do that just add less sugar.
+  </p>
+  <ul>
+    <li>Time: All day, but in a low energy way. Making the sauce doesn't take too long.</li>
+    <li>Serves: You'll be eating it the rest of the week!</li>
+  </ul>
   <table>
     <thead>
       <tr>
@@ -80,7 +146,57 @@ can you figure out how to get links to open in a different tab? Thanks!
         <th>Quantity</th>
       </tr>
     </thead>
+    <tbody>
+      <tr>
+        <td>Water</td>
+        <td>2/3 of the yellow pot (like a medium but wide pot)</td>
+      </tr>
+      <tr>
+        <td>Tomato Paste</td>
+        <td>3 tiny cans</td>
+      </tr>
+      <tr>
+        <td>Tomato Puree (Crushed tomatoes?)</td>
+        <td>1 huge can</td>
+      </tr>
+      <tr>
+        <td>Sugar</td>
+        <td>1 cup (use less if you don't like sweet sauces)</td>
+      </tr>
+      <tr>
+        <td>Garlic</td>
+        <td>To taste</td>
+      </tr>
+      <tr>
+        <td>Onion Salt</td>
+        <td>To taste</td>
+      </tr>
+       <tr>
+        <td>Italian Seasoning</td>
+        <td>To taste</td>
+      </tr>
+      <tr>
+        <td>Meat (usually Italian sausage and Meatballs)</td>
+        <td>Your call</td>
+      </tr>
+    </tbody>
   </table>
+  <p>
+    <strong>Instructions</strong>
+  </p>
+  <ol>
+    <li>Fill the yellow pot 2/3 with water.</li>
+    <li>Add 3 tiny cans of tomato paste and 1 huge can of tomato puree. Stir in all the
+    tomato paste so it doesn't stick to the bottom (or you'll get smoku)</li>
+    <li>Add 1 cup sugar and then diminishing amounts of garlic and onion salt and 
+    italian seasoning to taste.</li>
+    <li>Bring to a boil and reduce to a simmer.</li>
+    <li>Add in meat and cook forever--and as my mom sent me--on low for hours.</li>
+    <li>Serve over your favorite pasta and enjoy!</li>
+  </ol>
+  <a href="#top">Back to top</a>
+  
+  <hr>
   
   <h2 id="stuffing">Grandma Helen's Stuffing</h2>
   <table>
@@ -106,9 +222,41 @@ can you figure out how to get links to open in a different tab? Thanks!
         <td>Celery</td>
         <td>A Pack</td>
       </tr>
+      <tr>
+        <td>Seasonings:
+          <ul>
+            <li>Celery Salt</li>
+            <li>Garlic Salt</li>
+            <li>Onion Salt</li>
+            <li>Sage</li>
+            <li>Mrs. Dash (without salt)</li>
+            <li>Pepper</li>
+            <li>*Optional: A touch of white pepper</li>
+          </ul>
+        </td>
+        <td>To taste</td>
+      </tr>
     </tbody>
   </table>
+  <p><strong>Instructions</strong></p>
+  <ol>
+    <li>Cut the celery and onion into small pieces.</li>
+    <li>In a largre pan (or two), heat up the butter. Add celery and onion and stir. Cook until 
+      slightly soft and brown. Lightly season with salt and pepper.</li>
+    <li>Get a big pot ready. Take one loaf of bread and wet or two or three pieces at a time. 
+      They should be slightly wet, but not soaked. Then, tear the bread and pt in a the pot in small (but not tiny) 
+      pieces.</li>
+    <li>Add some of the cooked celery and onion to the pot with the bread and stir together. Then, 
+      add the seasonings to taste. Stir to combine. *Hint: Add very little sage, and balance which flavor of salt 
+      you add. Taste intermittedly to figure out what you need! also, you need less pepper than you think.</li>
+    <li>Repeat steps three and four until all the bread and celer-onion mixture is combined, and season to your liking.</li>
+    <li>Preheat the oven to 350 F. Put the stuffing into a baking dish (or two) and spread evenly. Bake in the oven until
+      fully cooked. Remove from the oven, and let cool.</li>
+    <li>Enjoy!</li>
+  </ol>
+  <a href="#top">Back to top</a>
   
+  <hr>
   
   <h2 id="lemon">Lemon and Parmesan Pasta</h2>
   <p>
@@ -117,6 +265,7 @@ can you figure out how to get links to open in a different tab? Thanks!
   <ul>
     <li>Time:It's a race. Maybe 10-15, not counting the time it takes to cook the pasta.</li>
     <li>Serves: As much as you want.</li>
+    
   </ul>
   <table>
     <thead>
@@ -165,11 +314,16 @@ can you figure out how to get links to open in a different tab? Thanks!
     <li>Remove the pan from heat. Add in a splash on the reserved pasta water. Start mixing in the cheese, a bit at a time, until you're happy with it.</li>
     <li>Add any additional seasonings you'd like. Enjoy!</li>
   </ol>
+  <a href="#top">Back to top</a>
+  
+  <hr>
   
   <h2 id="pastina">Pastina</h2>
+    <p>
     This is a fabulous meal if you are feeling a bit under the weather, or just want something nice
     and warm and hearty! Also, this probably isn't the traditional way to make it, but it's the way 
-    I usually make it because I don't know that way.
+      I usually make it because I don't know that way.</p>
+  <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-04-Pastina%2Fpastina-2" width="350">
   <ul>
     <li>Time:30 minutes? I never checked.</li>
     <li>Serves: About one decently large bowl</li>
@@ -234,7 +388,7 @@ can you figure out how to get links to open in a different tab? Thanks!
   </ol>
   
   
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <a href="#top">Back to top</a>
 
 </body>
 
